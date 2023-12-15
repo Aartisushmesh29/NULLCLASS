@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light Blue Background */
+    color: #333; /* Dark Text Color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White Background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project a {
+    color: #007bff; /* Blue Link Color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+    main {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 18px;
+    }
+
+    .project {
+        font-size: 14px;
+    }
+}
